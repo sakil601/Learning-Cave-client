@@ -1,0 +1,2 @@
+import {getSiteData} from '@/lib/site-data';
+export default async function Payment(){const d=await getSiteData();return <section className="section"><div className="container prose"><span className="ey">PAYMENT</span><h1>Payment & Pricing</h1><p>{d.payment?.instructions}</p><h2>Mobile Financial Services</h2>{(d.payment?.mfs||[]).map((x,i)=><p key={i}><b>{x.name||x.type}:</b> {x.number||x.account||x.value||''}</p>)}<h2>Bank</h2><pre>{JSON.stringify(d.payment?.bank||{},null,2)}</pre></div></section>}

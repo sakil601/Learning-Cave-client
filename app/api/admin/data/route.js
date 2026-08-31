@@ -1,0 +1,3 @@
+import {NextResponse} from 'next/server'; import {requireAdmin} from '@/lib/auth'; import {getSiteData,saveSiteData} from '@/lib/site-data';
+export async function GET(){if(!await requireAdmin())return NextResponse.json({message:'Unauthorized'},{status:401});return NextResponse.json({data:await getSiteData()})}
+export async function PUT(req){if(!await requireAdmin())return NextResponse.json({message:'Unauthorized'},{status:401});const {data}=await req.json();if(!data?.sections) return NextResponse.json({message:'Invalid data'},{status:400});await saveSiteData(data);return NextResponse.json({ok:true,data})}

@@ -1,0 +1,1038 @@
+{
+  "brand": {
+    "name": "Learning Cave",
+    "tagline": "Learn More, Grow More",
+    "whatsapp": "8801629112959",
+    "phone": "8801629112959",
+    "facebook": "https://www.facebook.com/share/18bTuxsJUe/",
+    "telegram": "",
+    "messenger": "",
+    "logo": "assets/logo.png"
+  },
+  "payment": {
+    "instructions": "Send money to any of the numbers below via bKash or Nagad Send Money, then enter the Transaction ID below.",
+    "mfs": [
+      {
+        "name": "bKash",
+        "type": "Send Money",
+        "number": "01629112959"
+      },
+      {
+        "name": "Nagad",
+        "type": "Send Money",
+        "number": "01629112959"
+      }
+    ],
+    "bank": {
+      "bankName": "",
+      "accountName": "",
+      "accountNumber": "",
+      "branch": ""
+    }
+  },
+  "floatIcons": {
+    "phone": true,
+    "whatsapp": true,
+    "telegram": true,
+    "messenger": true,
+    "facebook": true
+  },
+  "banners": [
+    {
+      "image": "assets/banners/banner1.jpg",
+      "link": "all-services.html"
+    },
+    {
+      "image": "assets/banners/banner2.jpg",
+      "link": "all-services.html"
+    },
+    {
+      "image": "assets/banners/banner3.jpg",
+      "link": "all-services.html"
+    },
+    {
+      "image": "assets/banners/banner4.jpg",
+      "link": "all-services.html"
+    }
+  ],
+  "theme": {
+    "primary": "#092f57",
+    "primaryDark": "#071f3d",
+    "accent": "#e9aa00",
+    "success": "#138a52",
+    "textMuted": "#718196",
+    "bgSoft": "#f8fbfd",
+    "radius": 16,
+    "fontScale": 1,
+    "fontFamily": "Lato",
+    "typography": {
+      "nav": {
+        "desktop": 16,
+        "mobile": 14,
+        "weight": 700
+      },
+      "logoWidth": {
+        "desktop": 84,
+        "mobile": 52
+      },
+      "heroH1": {
+        "desktop": 52,
+        "mobile": 34,
+        "weight": 800
+      },
+      "heroSub": {
+        "desktop": 16,
+        "mobile": 14,
+        "weight": 400
+      },
+      "heroButton": {
+        "desktop": 14,
+        "mobile": 13,
+        "weight": 700
+      },
+      "sectionHeading": {
+        "desktop": 36,
+        "mobile": 28,
+        "weight": 800
+      },
+      "courseTitle": {
+        "desktop": 52,
+        "mobile": 34
+      },
+      "cardTitle": {
+        "desktop": 15,
+        "mobile": 13,
+        "weight": 750
+      },
+      "fontFamily": {
+        "heading": "Lato",
+        "body": "Lato"
+      }
+    },
+    "background": "#ffffff"
+  },
+  
+  "footer": {
+    "officeHours": "10:00am – 10:00pm",
+    "phones": "01630-125272, 01763-235959",
+    "address": "Damurhuda, Chuadanga",
+    "email": "support@learningcave.com.bd"
+  },
+  "legalPages": [
+    {
+      "slug": "about-us",
+      "title": "About Us",
+      "content": "Learning Cave works on practical Microsoft Excel, Power Query, Power BI, Word and PowerPoint courses.\n\n- Hands-on, step-by-step teaching\n- Practice with real-world examples\n- Clear, simple explanations",
+      "pdfUrl": ""
+    },
+    {
+      "slug": "refund-policy",
+      "title": "Refund & Exchange Policy",
+      "content": "This is demo text — write your own Refund policy here.\n\n- Refundable before the course starts\n- Not refundable after the course starts",
+      "pdfUrl": ""
+    },
+    {
+      "slug": "payment-pricing",
+      "title": "Payment & Pricing",
+      "content": "This is demo text — write your Payment and Pricing information here.",
+      "pdfUrl": ""
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "content": "This is demo text — write your Privacy Policy here.",
+      "pdfUrl": ""
+    },
+    {
+      "slug": "terms-conditions",
+      "title": "Terms & Conditions",
+      "content": "This is demo text — write your Terms & Conditions here.",
+      "pdfUrl": ""
+    },
+    {
+      "slug": "order-cancellation",
+      "title": "Order & Cancellation",
+      "content": "This is demo text — write your Order & Cancellation policy here.",
+      "pdfUrl": ""
+    },
+    {
+      "slug": "faqs",
+      "title": "FAQs",
+      "content": "- Question: How long is a course?\nAnswer: Each course duration is shown on its course page.\n\n- Question: How do I pay?\nAnswer: See the Payment Info page.",
+      "pdfUrl": ""
+    }
+  ],
+  "sections": [
+    {
+      "slug": "courses",
+      "label": "Courses",
+      "navLabel": "Courses",
+      "heading": "Choose your learning path.",
+      "eyebrow": "COURSE CATEGORIES",
+      "groups": [
+        {
+          "slug": "excel",
+          "name": "Microsoft Excel",
+          "shortName": "Excel",
+          "subgroups": [
+            {
+              "slug": "recorded",
+              "name": "Recorded",
+              "description": "Recorded Microsoft Excel courses you can watch anytime, at your own pace.",
+              "color": "#dff2e5",
+              "textColor": "#176d3d",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "excel-1",
+                  "title": "Excel 1: Basics",
+                  "badge": "Recorded",
+                  "description": "Excel interface, formatting, tables and essential formulas.\n\n- Beginner friendly, step-by-step lessons\n- Real spreadsheet practice files\n- Lifetime access to recordings",
+                  "highlights": "- Beginner Friendly\n- Lifetime Access\n- Certificate on completion",
+                  "duration": "6+ hours",
+                  "price": 1500,
+                  "discount": 300,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-EXCEL1",
+                  "tags": [
+                    "Excel",
+                    "Recorded"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "excel-2",
+                  "title": "Excel 2: Advanced",
+                  "badge": "Recorded",
+                  "description": "Advanced formulas, PivotTables, charts and reporting.\n\n- Advanced dashboard building\n- Downloadable practice files",
+                  "highlights": "- Advanced Dashboards\n- Lifetime Access",
+                  "duration": "12+ hours",
+                  "price": 3000,
+                  "discount": 500,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-EXCEL2",
+                  "tags": [
+                    "Excel",
+                    "Recorded"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            },
+            {
+              "slug": "live",
+              "name": "Live",
+              "description": "Live Microsoft Excel classes with an instructor and real-time doubt solving.",
+              "color": "#dff2e5",
+              "textColor": "#176d3d",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "excel-live-1",
+                  "title": "Excel Live: Batch 1",
+                  "badge": "Live",
+                  "description": "Live weekend classes with real-time doubt solving.\n\n- Weekly live sessions\n- Recording provided after each class",
+                  "highlights": "- Live + Recorded\n- 1-on-1 Doubt Support",
+                  "duration": "8 weeks",
+                  "price": 3500,
+                  "discount": 500,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-EXCELLIVE1",
+                  "tags": [
+                    "Excel",
+                    "Live"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "excel-live-2",
+                  "title": "Excel Live: Dashboard Bootcamp",
+                  "badge": "Live",
+                  "description": "Intensive live dashboard-building bootcamp.",
+                  "highlights": "- Live + Recorded\n- Certificate on completion",
+                  "duration": "4 weeks",
+                  "price": 4000,
+                  "discount": 600,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-EXCELLIVE2",
+                  "tags": [
+                    "Excel",
+                    "Live"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        },
+        {
+          "slug": "word",
+          "name": "Microsoft Word",
+          "shortName": "Word",
+          "subgroups": [
+            {
+              "slug": "recorded",
+              "name": "Recorded",
+              "description": "Recorded Microsoft Word courses you can watch anytime, at your own pace.",
+              "color": "#e5effd",
+              "textColor": "#245b93",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "word-1",
+                  "title": "Word 1: Essentials",
+                  "badge": "Recorded",
+                  "description": "Styles, tables, headers and document basics.",
+                  "highlights": "- Beginner Friendly\n- Lifetime Access",
+                  "duration": "5+ hours",
+                  "price": 1200,
+                  "discount": 200,
+                  "thumbnail": "assets/thumbs/word.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-WORD1",
+                  "tags": [
+                    "Word",
+                    "Recorded"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "word-2",
+                  "title": "Word 2: Professional Docs",
+                  "badge": "Recorded",
+                  "description": "References, review, mail merge and document design.",
+                  "highlights": "- Lifetime Access",
+                  "duration": "6+ hours",
+                  "price": 1500,
+                  "discount": 300,
+                  "thumbnail": "assets/thumbs/word.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-WORD2",
+                  "tags": [
+                    "Word",
+                    "Recorded"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        },
+        {
+          "slug": "power-query",
+          "name": "Power Query",
+          "shortName": "Power Query",
+          "subgroups": [
+            {
+              "slug": "live",
+              "name": "Live",
+              "description": "Live Power Query classes with an instructor and real-time doubt solving.",
+              "color": "#fff0c9",
+              "textColor": "#805900",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "pq-live-1",
+                  "title": "Power Query Live: Batch 1",
+                  "badge": "Live",
+                  "description": "Live sessions covering import, clean, transform and automate.",
+                  "highlights": "- Live + Recorded",
+                  "duration": "6 weeks",
+                  "price": 3000,
+                  "discount": 400,
+                  "thumbnail": "assets/thumbs/powerquery.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-PQLIVE1",
+                  "tags": [
+                    "Power Query",
+                    "Live"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "pq-live-2",
+                  "title": "Power Query Live: Advanced Batch",
+                  "badge": "Live",
+                  "description": "Advanced reusable transformation workflows, live.",
+                  "highlights": "- Live + Recorded\n- Reusable Templates",
+                  "duration": "6 weeks",
+                  "price": 3500,
+                  "discount": 500,
+                  "thumbnail": "assets/thumbs/powerquery.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-COUR-PQLIVE2",
+                  "tags": [
+                    "Power Query",
+                    "Live"
+                  ],
+                  "category": "Courses",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        }
+      ],
+      "active": true
+    },
+    {
+      "slug": "ebooks",
+      "label": "E-Book",
+      "navLabel": "E-Book",
+      "heading": "Browse our e-books.",
+      "eyebrow": "E-BOOK CATEGORIES",
+      "groups": [
+        {
+          "slug": "featured",
+          "name": "Featured",
+          "subgroups": [
+            {
+              "slug": "excel-guides",
+              "name": "Excel Guides",
+              "shortName": "Excel",
+              "description": "Downloadable Excel reference e-books.",
+              "color": "#dff2e5",
+              "textColor": "#176d3d",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "excel-formula-handbook",
+                  "title": "Excel Formula Handbook",
+                  "badge": "E-Book",
+                  "description": "A complete PDF reference of essential Excel formulas with examples.",
+                  "highlights": "- Instant Download\n- 60+ Pages",
+                  "duration": "",
+                  "price": 300,
+                  "discount": 50,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-EBOO-EXCELFORMU",
+                  "tags": [
+                    "Excel",
+                    "E-Book"
+                  ],
+                  "category": "E-Book",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "excel-shortcuts-ebook",
+                  "title": "Excel Shortcuts E-Book",
+                  "badge": "E-Book",
+                  "description": "All the keyboard shortcuts you need in one handy PDF.",
+                  "highlights": "- Instant Download",
+                  "duration": "",
+                  "price": 200,
+                  "discount": 0,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-EBOO-EXCELSHORT",
+                  "tags": [
+                    "Excel",
+                    "E-Book"
+                  ],
+                  "category": "E-Book",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            },
+            {
+              "slug": "word-guides",
+              "name": "Word Guides",
+              "shortName": "Word",
+              "description": "Downloadable Word reference e-books.",
+              "color": "#e5effd",
+              "textColor": "#245b93",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "word-styles-guide",
+                  "title": "Word Styles & Formatting Guide",
+                  "badge": "E-Book",
+                  "description": "Master professional document formatting with this guide.",
+                  "highlights": "- Instant Download",
+                  "duration": "",
+                  "price": 250,
+                  "discount": 0,
+                  "thumbnail": "assets/thumbs/word.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-EBOO-WORDSTYLES",
+                  "tags": [
+                    "Word",
+                    "E-Book"
+                  ],
+                  "category": "E-Book",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "word-templates-ebook",
+                  "title": "Word Templates Pack (Guide)",
+                  "badge": "E-Book",
+                  "description": "A guide to using and customizing professional Word templates.",
+                  "highlights": "- Instant Download",
+                  "duration": "",
+                  "price": 250,
+                  "discount": 50,
+                  "thumbnail": "assets/thumbs/word.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-EBOO-WORDTEMPLA",
+                  "tags": [
+                    "Word",
+                    "E-Book"
+                  ],
+                  "category": "E-Book",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        },
+        {
+          "slug": "new-arrivals",
+          "name": "New Arrivals",
+          "subgroups": [
+            {
+              "slug": "power-bi-guides",
+              "name": "Power BI Guides",
+              "shortName": "Power BI",
+              "description": "Newly added Power BI e-books.",
+              "color": "#ffe39a",
+              "textColor": "#755000",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "power-bi-dax-cheatsheet",
+                  "title": "Power BI DAX Cheat Sheet",
+                  "badge": "E-Book",
+                  "description": "Quick-reference DAX functions and patterns.",
+                  "highlights": "- Instant Download",
+                  "duration": "",
+                  "price": 350,
+                  "discount": 0,
+                  "thumbnail": "assets/thumbs/powerbi.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-EBOO-POWERBIDAX",
+                  "tags": [
+                    "Power BI",
+                    "E-Book"
+                  ],
+                  "category": "E-Book",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "power-bi-dashboard-guide",
+                  "title": "Power BI Dashboard Design Guide",
+                  "badge": "E-Book",
+                  "description": "Design principles for clean, effective dashboards.",
+                  "highlights": "- Instant Download",
+                  "duration": "",
+                  "price": 350,
+                  "discount": 50,
+                  "thumbnail": "assets/thumbs/powerbi.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-EBOO-POWERBIDAS",
+                  "tags": [
+                    "Power BI",
+                    "E-Book"
+                  ],
+                  "category": "E-Book",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        }
+      ],
+      "active": true
+    },
+    {
+      "slug": "digital-products",
+      "label": "Digital Product",
+      "navLabel": "Digital Product",
+      "heading": "Browse digital products.",
+      "eyebrow": "DIGITAL PRODUCT CATEGORIES",
+      "groups": [
+        {
+          "slug": "templates",
+          "name": "Templates",
+          "subgroups": [
+            {
+              "slug": "excel-templates",
+              "name": "Excel Templates",
+              "shortName": "Excel",
+              "description": "Ready-made Excel templates.",
+              "color": "#dff2e5",
+              "textColor": "#176d3d",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "budget-tracker-template",
+                  "title": "Monthly Budget Tracker Template",
+                  "badge": "Template",
+                  "description": "A ready-to-use Excel budget tracker with charts.",
+                  "highlights": "- Instant Download\n- Editable File",
+                  "duration": "",
+                  "price": 250,
+                  "discount": 0,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-DIGI-BUDGETTRAC",
+                  "tags": [
+                    "Excel",
+                    "Template"
+                  ],
+                  "category": "Digital Product",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "invoice-template",
+                  "title": "Professional Invoice Template",
+                  "badge": "Template",
+                  "description": "A clean, editable Excel invoice template.",
+                  "highlights": "- Instant Download\n- Editable File",
+                  "duration": "",
+                  "price": 200,
+                  "discount": 0,
+                  "thumbnail": "assets/thumbs/excel.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-DIGI-INVOICETEM",
+                  "tags": [
+                    "Excel",
+                    "Template"
+                  ],
+                  "category": "Digital Product",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        },
+        {
+          "slug": "toolkits",
+          "name": "Toolkits",
+          "subgroups": [
+            {
+              "slug": "productivity-toolkits",
+              "name": "Productivity Toolkits",
+              "shortName": "Toolkit",
+              "description": "Bundled productivity toolkits.",
+              "color": "#ffe7dd",
+              "textColor": "#9a4025",
+              "thumbnail": "",
+              "items": [
+                {
+                  "slug": "planner-toolkit",
+                  "title": "Weekly Planner Toolkit",
+                  "badge": "Toolkit",
+                  "description": "A bundle of planner templates for Excel and Word.",
+                  "highlights": "- Instant Download\n- Editable Files",
+                  "duration": "",
+                  "price": 400,
+                  "discount": 100,
+                  "thumbnail": "assets/thumbs/toolkit.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-DIGI-PLANNERTOO",
+                  "tags": [
+                    "Toolkit",
+                    "Toolkit"
+                  ],
+                  "category": "Digital Product",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                },
+                {
+                  "slug": "study-toolkit",
+                  "title": "Student Study Toolkit",
+                  "badge": "Toolkit",
+                  "description": "Templates and trackers to organize study schedules.",
+                  "highlights": "- Instant Download",
+                  "duration": "",
+                  "price": 300,
+                  "discount": 50,
+                  "thumbnail": "assets/thumbs/toolkit.jpg",
+                  "materialUrl": "",
+                  "active": true,
+                  "sku": "LC-DIGI-STUDYTOOLK",
+                  "tags": [
+                    "Toolkit",
+                    "Toolkit"
+                  ],
+                  "category": "Digital Product",
+                  "outline": [
+                    "Introduction and learning goals",
+                    "Core concepts and interface",
+                    "Hands-on practice",
+                    "Real-world examples and exercises"
+                  ],
+                  "includes": [
+                    "On-demand learning materials",
+                    "Practice files and examples",
+                    "Lifetime access",
+                    "Certificate of completion"
+                  ]
+                }
+              ],
+              "active": true
+            }
+          ],
+          "active": true
+        }
+      ],
+      "active": true
+    }
+  ],
+  "tips": {
+    "active": true,
+    "navLabel": "Tips and Tricks",
+    "groups": [
+      {
+        "slug": "microsoft-office",
+        "name": "Microsoft Office",
+        "active": true,
+        "subgroups": [
+          {
+            "slug": "excel-tips",
+            "name": "Excel Tips and Tricks",
+            "active": true,
+            "description": "Practical Excel tips for everyday productivity.",
+            "posts": [
+              {
+                "id": "excel-tip-003",
+                "heading": "Fill a Series Faster with Flash Fill",
+                "thumbnail": "assets/tips/excel-tip-003.jpg",
+                "date": "2026-08-20",
+                "tags": [
+                  "Excel",
+                  "Flash Fill",
+                  "Productivity"
+                ],
+                "content": "<p><strong>Flash Fill</strong> can recognize a pattern from your example and complete the remaining values automatically.</p><ul><li>Enter the first example.</li><li>Press <strong>Ctrl + E</strong>.</li><li>Review the generated values before accepting.</li></ul><p><em>Tip:</em> Keep the examples clear so Excel can detect the pattern correctly.</p>"
+              },
+              {
+                "id": "excel-tip-002",
+                "heading": "Use COUNTIFS for Multiple Conditions",
+                "thumbnail": "assets/tips/excel-tip-002.jpg",
+                "date": "2026-08-19",
+                "tags": [
+                  "Excel",
+                  "COUNTIFS",
+                  "Formulas"
+                ],
+                "content": "<p><strong>COUNTIFS</strong> counts rows that meet multiple conditions at the same time.</p><ul><li>Select the range to count.</li><li>Add each criteria range and criterion pair.</li><li>Use absolute references when building reusable reports.</li></ul>"
+              },
+              {
+                "id": "excel-tip-001",
+                "heading": "Turn a Data Range into an Excel Table",
+                "thumbnail": "assets/tips/excel-tip-001.jpg",
+                "date": "2026-08-18",
+                "tags": [
+                  "Excel",
+                  "Tables",
+                  "Data"
+                ],
+                "content": "<p>Select your data and press <strong>Ctrl + T</strong> to create a structured Excel Table.</p><p>Tables make filtering, formulas and future data expansion much easier.</p>"
+              }
+            ]
+          },
+          {
+            "slug": "word-tips",
+            "name": "Word Tips and Tricks",
+            "active": true,
+            "description": "Useful Microsoft Word shortcuts and document tips.",
+            "posts": [
+              {
+                "id": "word-tip-001",
+                "heading": "Use Styles for Consistent Headings",
+                "thumbnail": "assets/tips/word-tip-001.jpg",
+                "date": "2026-08-17",
+                "tags": [
+                  "Word",
+                  "Styles",
+                  "Formatting"
+                ],
+                "content": "<p>Use built-in heading styles instead of manually formatting every heading.</p><ul><li>Apply Heading 1 to major sections.</li><li>Use Heading 2 for subsections.</li><li>Generate a Table of Contents from the styles.</li></ul>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "power-tools",
+        "name": "Power Tools",
+        "active": true,
+        "subgroups": [
+          {
+            "slug": "power-query-tips",
+            "name": "Power Query Tips",
+            "active": true,
+            "description": "Practical data-cleaning and transformation tips.",
+            "posts": [
+              {
+                "id": "pq-tip-001",
+                "heading": "Fill Down Missing Values in Power Query",
+                "thumbnail": "assets/tips/pq-tip-001.jpg",
+                "date": "2026-08-16",
+                "tags": [
+                  "Power Query",
+                  "Fill Down",
+                  "Data Cleaning"
+                ],
+                "content": "<p>Select the target column and use <strong>Transform → Fill → Down</strong> to propagate the last non-empty value downward.</p>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "video": {
+    "active": true,
+    "ratio": "2 / 1",
+    "folder": "assets/videos/",
+    "files": [
+      "assets/videos/welcome-1.mp4"
+    ],
+    "autoplay": true,
+    "muted": true,
+    "loop": true
+  },
+  "registration": {
+    "ownerEmail": "mohib.zaman94@gmail.com",
+    "googleFormUrl": "",
+    "courseEntryId": "",
+    "fields": [
+      "Name",
+      "Mobile Number",
+      "Mail ID",
+      "WhatsApp Number",
+      "Course Name"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+:root {
+  --primary: #092f57;
+  --primary-dark: #071f3d;
+  --accent: #e9aa00;
+  --success: #138a52;
+  --muted: #718196;
+  --nav: 16px;
+  --hero: 52px;
+  --herom: 34px;
+  --sub: 16px;
+  --subm: 14px;
+  --section: 36px;
+  --sectionm: 28px;
+  --card: 15px;
+  --cardm: 13px;
+  --courseTitle: 52px;
+  --courseTitleM: 34px;
+  --logo: 84px;
+  --logom: 52px;
+  --font-heading: "Lato", "Noto Sans Bengali", sans-serif;
+  --font-body: "Lato", "Noto Sans Bengali", sans-serif;
+}

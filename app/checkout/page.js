@@ -1,0 +1,3 @@
+'use client';
+import {useEffect,useState} from 'react'; import {CheckoutForm} from '@/components/ClientCart';
+export default function Checkout(){const [items,setItems]=useState([]);useEffect(()=>setItems(JSON.parse(localStorage.getItem('lc_cart')||'[]')),[]);if(!items.length)return <section className="section"><div className="container"><h1>Checkout</h1><p>Your cart is empty.</p></div></section>;return <section className="section"><div className="container"><h1>Checkout</h1><div className="checkout-grid"><div>{items.map(i=><div className="checkout-item" key={i.slug}><b>{i.title}</b><span>৳{(i.price-i.discount).toLocaleString()}</span></div>)}</div><CheckoutForm items={items}/></div></div></section>}
