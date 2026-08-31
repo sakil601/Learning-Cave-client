@@ -28,7 +28,12 @@ export default async function Home() {
           <h2>Courses & Products</h2>
           <div className="service-grid">
             {items.map((i) => (
-              <ItemCard key={i.slug} item={i} section={i.sectionSlug} />
+              <ItemCard
+                key={i.slug}
+                item={i}
+                section={i.sectionSlug}
+                category={i.groupSlug}
+              />
             ))}
           </div>
         </div>
