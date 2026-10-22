@@ -1,0 +1,1 @@
+export default function Page(){return <section className="section"><div className="container"><h1>Refund & Exchange Policy</h1><div className="descbox"><p>This policy page is static in the first frontend version and can be replaced with the final client-approved policy text.</p></div></div></section>}

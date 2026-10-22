@@ -1,0 +1,1 @@
+export default function Page(){return <section className="section"><div className="container"><h1>Privacy Policy</h1><div className="descbox"><p>Final privacy policy text will be added here.</p></div></div></section>}

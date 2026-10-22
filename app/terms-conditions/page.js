@@ -1,0 +1,1 @@
+export default function Page(){return <section className="section"><div className="container"><h1>Terms & Conditions</h1><div className="descbox"><p>Final terms and conditions will be added here.</p></div></div></section>}

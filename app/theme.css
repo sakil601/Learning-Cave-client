@@ -1,0 +1,59 @@
+:root,
+[data-theme="light"] {
+  --primary: #028e40;
+  --primary-dark: #016e31;
+  --accent: #db0d1d;
+  --accent-dark: #aa0a16;
+  --success: #138a52;
+  --muted: #5f5e5a;
+  --nav: 16px;
+  --hero: 52px;
+  --herom: 34px;
+  --sub: 16px;
+  --subm: 14px;
+  --section: 36px;
+  --sectionm: 28px;
+  --card: 15px;
+  --cardm: 13px;
+  --courseTitle: 52px;
+  --courseTitleM: 34px;
+  --logo: 60px;
+  --logom: 38px;
+  --font-heading: "Lato", "Noto Sans Bengali", sans-serif;
+  --font-body: "Lato", "Noto Sans Bengali", sans-serif;
+  --page-bg: #fafaf7;
+  --surface: #ffffff;
+  --surface-soft: #f5f4ef;
+  --border-c: #e3e1d8;
+  --text-main: #22221e;
+  --text-soft: #5f5e5a;
+  --header-bg: #ffffff;
+  --drawer-bg: #ffffff;
+  --logo-chip: #ffffff;
+  --detail-font: 15px;
+  --detail-font-m: 13px;
+  --price-font: 26px;
+  --card-bg: var(--surface);
+  --primary-soft: #eaf6ef;
+  --surface-2: #eef2f0;
+}
+[data-theme="dark"] {
+  --primary: #6cbd90;
+  --primary-dark: #549370;
+  --accent: #e55560;
+  --accent-dark: #b2424a;
+  --success: #6cbd90;
+  --muted: #b4b2a9;
+  --page-bg: #0e1a30;
+  --surface: #050c18;
+  --surface-soft: #0a1830;
+  --border-c: #16263f;
+  --text-main: #f1efe8;
+  --text-soft: #b4b2a9;
+  --header-bg: #0b1f3b;
+  --drawer-bg: #050c18;
+  --logo-chip: #ffffff;
+  --card-bg: var(--surface);
+  --primary-soft: #12301f;
+  --surface-2: #102039;
+}

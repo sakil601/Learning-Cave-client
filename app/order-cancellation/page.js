@@ -1,0 +1,1 @@
+export default function Page(){return <section className="section"><div className="container"><h1>Order & Cancellation</h1><div className="descbox"><p>Final order and cancellation policy will be added here.</p></div></div></section>}

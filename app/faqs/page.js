@@ -1,0 +1,3 @@
+import { GLOBAL_FAQ } from "@/lib/static-content";
+export const metadata = { title: "FAQs" };
+export default function Page() { return <><section className="page-hero"><div className="container"><span className="ey">HELP</span><h1>Frequently Asked Questions</h1><p>Common Learning Cave questions.</p></div></section><section className="section"><div className="container" style={{ maxWidth: 900 }}><div className="faq-list">{GLOBAL_FAQ.map((item) => <details className="faq-row" key={item.q}><summary>{item.q}<span className="outline-chev">›</span></summary><div>{item.a}</div></details>)}</div></div></section></>; }

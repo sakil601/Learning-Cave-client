@@ -1,0 +1,13 @@
+"use client";
+import { useEffect,useState } from "react";
+
+import { admin } from "@/lib/admin-api";
+import { AdminHeader, Notice } from "@/components/admin/AdminUI";
+
+export default function BundlesAdminPage(){
+ const [bundles,setBundles]=useState([]),[all,setAll]=useState([]),[productId,setProductId]=useState(""),[config,setConfig]=useState(null),[selected,setSelected]=useState([]),[future,setFuture]=useState(false),[error,setError]=useState(""),[msg,setMsg]=useState("");
+ useEffect(()=>{const q=new URLSearchParams(window.location.search).get("product")||""; if(q)setProductId(q); Promise.all([admin.products("type=bundle&limit=100"),admin.products("limit=100")]).then(([b,a])=>{setBundles(b.data||[]);setAll((a.data||[]).filter(p=>p.type!=="bundle"))}).catch(e=>setError(e.message))},[]);
+ const load=async(id=productId)=>{if(!id)return;try{const r=await admin.bundle(id);setConfig(r.data);setSelected((r.data.items||[]).map(x=>x.product?._id||x.product));setFuture(!!r.data.includeFutureItems)}catch(e){if(e.status===404){setConfig(null);setSelected([]);setFuture(false);setMsg("No bundle config yet.")}else setError(e.message)}};useEffect(()=>{if(productId)load(productId)},[productId]);
+ const save=async()=>{try{const body={items:selected.map(product=>({product})),includeFutureItems:future};if(config)await admin.updateBundle(config._id,body);else await admin.createBundle(productId,body);setMsg(config?"Bundle updated.":"Bundle configured.");await load()}catch(e){setError(e.message)}};
+ return <><AdminHeader title="Bundles" description="Choose a bundle product and select the non-bundle products it includes."/><Notice tone="error">{error}</Notice><Notice tone="success">{msg}</Notice><div className="admin-panel"><div className="admin-field"><label>Bundle product</label><select value={productId} onChange={e=>setProductId(e.target.value)}><option value="">Select product</option>{bundles.map(p=><option key={p._id} value={p._id}>{p.title} ({p.status})</option>)}</select></div></div>{productId&&<div className="admin-panel"><h2>{config?"Edit bundle":"Create bundle"}</h2><div className="admin-field"><label>Included products</label><select multiple size="12" value={selected} onChange={e=>setSelected([...e.target.selectedOptions].map(o=>o.value))}>{all.map(p=><option key={p._id} value={p._id}>{p.title} — {p.type.replaceAll("_"," ")}</option>)}</select></div><label className="admin-check" style={{marginTop:14}}><input type="checkbox" checked={future} onChange={e=>setFuture(e.target.checked)}/>Include future items</label><Notice>Live courses inside bundles are still constrained by the existing backend batch-access design.</Notice><button className="btn primary" onClick={save}>{config?"Save Bundle":"Create Bundle"}</button></div>}</>;
+}

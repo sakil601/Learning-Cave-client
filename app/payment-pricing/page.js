@@ -1,0 +1,1 @@
+export default function Page(){return <section className="section"><div className="container"><h1>Payment & Pricing</h1><div className="descbox"><p>Prices shown on published products are loaded from the Learning Cave backend.</p></div></div></section>}

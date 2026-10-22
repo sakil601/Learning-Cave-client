@@ -1,0 +1,2 @@
+export const metadata = { title: "About Us" };
+export default function Page() { return <><section className="page-hero"><div className="container"><span className="ey">LEARNING CAVE</span><h1>Learn More, Grow More</h1><p>Practical learning for real work.</p></div></section><section className="section"><div className="container" style={{ maxWidth: 900 }}><div className="descbox"><p>Learning Cave provides practical courses, live learning, e-books and digital products designed around real-world skills.</p></div></div></section></>; }
